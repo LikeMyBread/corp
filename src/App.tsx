@@ -8,7 +8,7 @@ export default function App() {
     <div className={styles.container}>
       <h2>Corp clicker</h2>
       <p>
-        Click to get respect.
+        Click to get respect. <i className="far fa-lightbulb"></i>
       </p>
       <button type="button" onClick={() => setCount(count + 1)}>
         Increase cat count: {count}
