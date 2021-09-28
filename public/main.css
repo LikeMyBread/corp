@@ -1,9 +1,9 @@
 :root {
   --bg-color: #F5F5F5;
   --bg-transition: background 0.1s ease-in-out;
-  --accent-color: #635EE7;
-  --accent-bg: #d0cff8;
-  --accent-bg-light: #efeffd;
+  --accent-color: #1e95f0;
+  --accent-bg: #9acff8;
+  --accent-bg-light: #e8f4fe;
   --font-color: #222;
   --font-size: 16px;
 }

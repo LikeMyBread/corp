@@ -1,11 +1,11 @@
 {
-  "name": "react-starter",
+  "name": "corp-clicker",
   "version": "0.1.0",
-  "description": "Simple React boilerplate for client side projects",
+  "description": "A game about moving up the ranks of a corporate ladder.",
   "main": "src/main.js",
   "scripts": {
     "compile": "webpack",
-    "build": "webpack -p",
+    "build": "webpack --mode production",
     "prestart": "npm run compile",
     "start": "webpack-dev-server",
     "predeploy": "npm run build",
@@ -15,11 +15,11 @@
     "React",
     "Starter"
   ],
-  "author": "Tiff Zhang",
+  "author": "Mike Bradley and Tiff Zhang",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tiffz/react-starter.git"
+    "url": "git://github.com/LikeMyBread/corp.git"
   },
   "postcss": {
     "plugins": {
